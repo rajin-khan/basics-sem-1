@@ -1,0 +1,26 @@
+Final question types:
+
+- recursion
+- 1D array
+- 2D array
+- structure + file
+- pointer
+- (maybe output finding stuff)
+
+
+for fwrite, the structure is: fwrite(s /* the string or whatever you wanna read */, sizeof(s[0]) /* size of each element in the structure or the array */, NUM_STUDENTS /* how many elements you wanna write in the file */ , f /* the file pointer */);
+remember, fwrite always writes or creates files in b i n a r y , so it isn't really understandable even if you open the .txt file.
+
+for fread, the structure is: fread(s, sizeof(s[0]), num /* here, in fread, this is actually the max number of elements in the databse */, f);
+
+if you return an int value from fread, it actually returns the number of successful reads in total, so, from a database, you could technically read the number of students in that database, by just using fread.
+
+questions in the finals will include reading and writing from files.
+
+REMEMBER PT2, fread and fwrite is better, but it reads it in binary and writes in binary in your file, so maybe you can use fscanf and fprintf, since t h o s e two read and write normal text.
+
+but, you can use fscanf(stream, "[^\n]%*c", &char); so it reads the string until new line, but doesn't read the new line itself, and drops the last thing that it reads using *c.
+
+LAB FINALS ALSO HAVE HE SAME SYLLABUS
+
+find someone for software engineering
