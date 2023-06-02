@@ -19,3 +19,13 @@ tool
 
 
 
+
+fanta
+drink
+20
+coke
+drink
+40
+juice
+album
+69
