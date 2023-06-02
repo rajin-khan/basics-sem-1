@@ -1,7 +1,0 @@
-printf("\e[1;1H\e[2J")
-
-add me
-search kab
-benaf view
-
-update delete everyone combined and edited
