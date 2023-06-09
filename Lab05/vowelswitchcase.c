@@ -12,7 +12,7 @@ int main()
     printf("\nPlease enter a single letter: ");
     scanf("%c", &let);
 
-   let = tolower(let);
+    let = tolower(let);
 
     switch(let)
     {
