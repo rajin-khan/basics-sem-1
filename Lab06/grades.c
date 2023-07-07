@@ -35,13 +35,13 @@ int main()
         printf("\nGrade = A (%.2f%%)\n\n", avg);
     }
     else if ((avg>=70)&&(avg<90))
-        {
-            printf("\nGrade = B (%.2f%%)\n\n", avg);
-        }
+    {
+        printf("\nGrade = B (%.2f%%)\n\n", avg);
+    }
     else if ((avg>=50)&&(avg<70))
-        {
-            printf("\nGrade = C (%.2f%%)\n\n", avg);
-        }
+    {
+        printf("\nGrade = C (%.2f%%)\n\n", avg);
+    }
     else
     {
         printf("\nGrade = F (%.2f%%)\n\n", avg);
