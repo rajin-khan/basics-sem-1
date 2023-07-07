@@ -15,7 +15,6 @@ int main()
     printf("\nPlease enter the third number: ");
     scanf("%i", &c);
 
-
     if (a<b && a<c)
     {
         printf("\nThe smallest one is: %i\n\n", a);
@@ -29,5 +28,5 @@ int main()
         printf("\nThe smallest one is: %i\n\n", c);
     }
 
-return 0;
+    return 0;
 }
