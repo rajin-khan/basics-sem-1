@@ -91,11 +91,11 @@ void printinfo2(int x)
 
     puts(p2.name);
 
-    printf("And his/her father's name is: ");
+    printf("And his/her Father's name is: ");
 
     puts(p2.fatherName);
 
-    printf("And his/her mother's name is: ");
+    printf("And his/her Mother's name is: ");
 
     puts(p2.motherName);
 
