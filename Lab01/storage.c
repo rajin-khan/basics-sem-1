@@ -1,7 +1,7 @@
 #include<stdio.h>
 
-int main()
-{
+int main() {
+    
     int num;
     float deci;
     char name[20];
