@@ -1,7 +1,7 @@
 #include<stdio.h>
 
-int main()
-{
+int main() {
+    
     float const PI = 3.142;
     float radius;
     float area, circumference, diameter;
