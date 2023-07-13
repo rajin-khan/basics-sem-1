@@ -1,7 +1,7 @@
 #include<stdio.h>
 
-int main()
-{
+int main() {
+    
     int num1;
     int num2;
     float Sum, Product, Difference, Quotient, Remainder;
@@ -24,5 +24,4 @@ int main()
     printf("The Remainder is: %.2f\n", Remainder);
 
     return 0;
-
 }
