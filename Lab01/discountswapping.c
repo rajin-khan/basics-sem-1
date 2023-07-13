@@ -1,7 +1,7 @@
 #include<stdio.h>
 
-int main()
-{
+int main() {
+
     int a;
     int b;
     
@@ -18,5 +18,4 @@ int main()
     printf("The new value of b is: %d\n", b);
 
     return 0;
-
 }
