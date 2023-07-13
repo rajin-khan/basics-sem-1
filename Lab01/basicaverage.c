@@ -1,7 +1,7 @@
 #include<stdio.h>
 
-int main()
-{
+int main() {
+
     int num1, num2, num3;
     float average, sum;
 
@@ -21,5 +21,4 @@ int main()
     printf("The Average is: %.1f\n", average);
     
     return 0;
-
 }
