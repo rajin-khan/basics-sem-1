@@ -1,8 +1,7 @@
 #include<stdio.h>
 
-int main()
-
-{
+int main() {
+    
     printf("\nHello everyone, this is my first code.\n I can put text in different lines.\n");
     printf("\t I can also indent my sentences like this.\n");
     printf("I can use \"escapes\", such as \\t, \\, and \\r too\n");
