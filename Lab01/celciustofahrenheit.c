@@ -1,17 +1,16 @@
 #include<stdio.h>
 
- int main()
- {
-     float C;
-     float F;
+int main() {
 
-     printf("\nPlease enter the temperature you would like to convert to Fahrenheit (F):");
-     scanf("%f", &C);
+    float C;
+    float F;
 
-     F = (C*(float)9/5)+32;
+    printf("\nPlease enter the temperature you would like to convert to Fahrenheit (F):");
+    scanf("%f", &C);
 
-     printf("The temperature, in Fahrenheit (F) is: %.2f\n\n", F);
+    F = (C*(float)9/5)+32;
 
-     return 0;
+    printf("The temperature, in Fahrenheit (F) is: %.2f\n\n", F);
+    return 0;
 
- }
+}
