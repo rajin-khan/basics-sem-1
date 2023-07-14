@@ -1,4 +1,3 @@
-
 /*
 This program will calculate the solutions of the equation ax²+bx+c=0.
 Inputs of a, b, and c will be taken from the user.
@@ -7,19 +6,19 @@ Inputs of a, b, and c will be taken from the user.
 #include<stdio.h>
 #include<math.h>
 
-int main()
-{
-    int a;
-    int b;
-    int c;
-    float ans1;
-    float ans2;
+int main() {
+
+    int a, b, c;
+    float ans1, ans2;
 
     printf("\nThis program will calculate the solutions of the equation ax²+bx+c=0.\n");
+
     printf("\nPlease enter the value of a:");
     scanf("%i",&a);
+
     printf("\nPlease enter the value of b:");
     scanf("%i",&b);
+    
     printf("\nPlease enter the value of c:");
     scanf("%i",&c);
 
