@@ -2,18 +2,17 @@
 
 #include<stdio.h>
 
-int main()
-{
-     float F;
-     float C;
+int main() {
 
-     printf("\nPlease enter the temperature you would like to convert to Celcius (C):");
-     scanf("%f", &F);
+    float F, C;
 
-     C = (F-32)*(5/(float)9);
+    printf("\nPlease enter the temperature you would like to convert to Celcius (C):");
+    scanf("%f", &F);
 
-     printf("The temperature, in Celcius (C) is: %.2f\n\n", C);
+    C = (F-32)*(5/(float)9);
 
-     return 0;
+    printf("The temperature, in Celcius (C) is: %.2f\n\n", C);
+
+    return 0;
 }
 
