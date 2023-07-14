@@ -3,15 +3,9 @@
 #include<stdio.h>
 #include<math.h>
 
-int main()
-{
-    float cubel; //The cube's length
-    float cubevol; //The cube's volume
-
-    float cylh; //The cylinder's height
-    float cyldm; //The cylinder's diameter
-    float cylrad; //The cylinder's radius
-    float cylvol; //The cylinder's volume
+int main() {
+    
+    float cubel, cubevol, cylh, cyldm, cylrad, cylvol;
     float const PI = 3.142;
 
     printf("\nPlease enter the length of the cube:");
@@ -23,6 +17,7 @@ int main()
 
     printf("\nPlease enter the height of the cylinder:");
     scanf("%f", &cylh);
+    
     printf("\nPlease enter the diameter of the cylinder:");
     scanf("%f", &cyldm);
 
