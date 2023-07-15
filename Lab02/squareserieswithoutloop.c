@@ -2,10 +2,9 @@
 
 #include<stdio.h>
 
-int main()
-{
-    float n;
-    float sum;
+int main() {
+
+    float n, sum;
 
     printf("\nThis program will find the sum of the series 1²+2²+...+n².");
     printf("\nPlease enter the value of n:");
