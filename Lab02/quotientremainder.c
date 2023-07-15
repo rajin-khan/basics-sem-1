@@ -7,15 +7,13 @@ This program will:
 #include<stdio.h>
 #include<math.h>
 
-int main()
-{
-    int x;
-    int y;
-    int quo; //The calculated quotient
-    int rem; //The calculated remainder
+int main() {
+    
+    int x, y, quo, rem;
 
     printf("\nPlease enter a value for x:");
     scanf("%i", &x);
+    
     printf("\nPlease enter a value for y:");
     scanf("%i", &y);
 
