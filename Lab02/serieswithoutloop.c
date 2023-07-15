@@ -2,12 +2,12 @@
 
 #include<stdio.h>
 
-int main()
-{
-    float n;
-    float sum;
+int main() {
+
+    float n, sum;
 
     printf("\nThis program will add all the numbers from 1 to n.");
+    
     printf("\nPlease enter the value of n:");
     scanf("%f",&n);
 
