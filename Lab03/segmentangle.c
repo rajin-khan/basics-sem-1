@@ -6,14 +6,13 @@ The arc length and radius will be taken from the user.
 #include<stdio.h>
 #define PI 3.142
 
-int main()
-{
-    float arcl; //The arc length
-    float rad; //The radius
-    float ang; //The angle
+int main() {
+
+    float arcl, rad, ang;
 
     printf("\nThis program will find the angle of a segment in a circle.\nPlease enter the radius:");
     scanf("%f", &rad);
+    
     printf("Please enter the arc length:");
     scanf("%f", &arcl);
 
