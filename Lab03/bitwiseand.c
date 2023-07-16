@@ -5,10 +5,9 @@ The input n will be taken from the user.
 
 #include<stdio.h>
 
-int main()
-{
-    int n;
-    int ans;
+int main() {
+
+    int n, ans;
     
     printf("\nThis program will calculate the bitwise AND of n and 1.\nPlease enter a value of n:");
     scanf("%d", &n);
