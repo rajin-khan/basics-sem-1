@@ -7,17 +7,16 @@ The radius and the height will be taken from the user.
 #include<math.h>
 #define PI 3.142
 
-int main()
-{
-    float coner, coneh; //The radius and height of the cone
-    float vol;
-    float sarea; //The surface area
+int main() {
+
+    float coner, coneh, vol, sarea;
     float h², r², r³;
 
     printf("\nThis program will compute the volume and surface area of a cone.\n");
 
     printf("\nPlease enter the radius of the cone(in cm): ");
     scanf("%f", &coner);
+    
     printf("Please enter the height of the cone(in cm): ");
     scanf("%f", &coneh);
 
