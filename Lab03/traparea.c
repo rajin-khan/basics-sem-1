@@ -5,17 +5,16 @@ Necessary inputs will be taken from the user.
 
 #include<stdio.h>
 
-int main()
-{
-    float para, parb; //The two parallel sides
-    float traph; //The height of the trapezoid
-    float area;
+int main() {
+
+    float para, parb, traph, area;
 
     printf("\nThis program will compute the area of a trapezoid.");
 
     printf("\nPlease enter the value of the two parallel sides.\n");
     printf("\nSide a (in cm):");
     scanf("%f", &para);
+    
     printf("Side b (in cm):");
     scanf("%f", &parb);
 
