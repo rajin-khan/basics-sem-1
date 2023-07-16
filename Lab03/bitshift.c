@@ -7,8 +7,8 @@ The value of m >> n (m, right bit shift by n) will be calculated, along with the
 #include<stdio.h>
 #include<math.h>
 
-int main()
-{
+int main() {
+
     int m, n;
 
     printf("\nThis program will calculate the vlaue of m << n.\nPlease enter a value for m:");
@@ -21,7 +21,6 @@ int main()
 
 //The pattern here is that m<<n is equivalent to m multiplied by 2 raised to the power n.
 
-
     printf("\nNow, the program will calculate the vlaue of m >> n.\nPlease enter a new value for m:");
     scanf("%d", &m);
     printf("Please enter a new value for the right shift, n:");
@@ -31,7 +30,6 @@ int main()
     printf("This is also equivalent to m / 2ⁿ, which is: %.f\n\n", m/(pow(2,n)));
 
 //The pattern here is that m>>n is equivalent to m divided by 2 raised to the power n.
-
 
     return 0;
 }
