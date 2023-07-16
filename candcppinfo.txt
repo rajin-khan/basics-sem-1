@@ -1,0 +1,32 @@
+create a c file
+compile it with:
+make *filename*
+execute it with:
+./*compiledfilename*
+
+now, make is just a shortcut
+
+better to use:
+clang hello.c
+which generates:
+a.out
+then ./a.out
+
+but since a.out is not a clear name,
+it's better to use:
+clang -o hello hello.c
+which generates the output file in the name of hello, with the clang command taking arguments.
+thus, you can run:
+./hello
+and it executes normally.
+
+
+debugging:
+move file into outer directory
+
+go to debugging and select c/c++ clang++ build and debug active file
+
+then stop after dsym folder is generated
+then select debug in terminal
+
+then boom
