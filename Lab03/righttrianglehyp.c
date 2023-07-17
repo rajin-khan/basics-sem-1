@@ -6,11 +6,9 @@ The length of the base and height of the triangle will be taken from the user.
 #include<stdio.h>
 #include<math.h>
 
-int main()
-{
-    float base, height;
-    float hyp; //The hypotenuse
-    float b², h²;
+int main() {
+
+    float base, height, hyp, b², h²;
 
     printf("\nThis program will compute the hypotenuse of a right-angled triangle.");
     
