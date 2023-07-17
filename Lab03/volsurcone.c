@@ -9,8 +9,7 @@ The radius and the height will be taken from the user.
 
 int main() {
 
-    float coner, coneh, vol, sarea;
-    float h², r², r³;
+    float coner, coneh, vol, sarea, h², r², r³;
 
     printf("\nThis program will compute the volume and surface area of a cone.\n");
 
