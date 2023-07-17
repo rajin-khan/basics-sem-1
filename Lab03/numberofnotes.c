@@ -2,8 +2,8 @@
 
 #include<stdio.h>
 
-int main()
-{
+int main() {
+    
     float money;
     int fiveh, oneh, fif, twen, ten, fiv, two, one; //The variables for 500, 100, 50, 20, 10, 5, 2, 1 notes
 
