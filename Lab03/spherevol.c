@@ -7,11 +7,9 @@ The radius will be taken from the user.
 #include<math.h>
 #define PI 3.142
 
-int main()
-{
-    float rad;
-    float volume;
-    float r³;
+int main() {
+
+    float rad, volume, r³;
 
     printf("\nThis program will compute the volume of a sphere.\nPlease enter the radius:");
     scanf("%f", &rad);
