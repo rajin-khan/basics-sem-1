@@ -5,8 +5,8 @@ and compute the midpoints of these two points.
 
 #include<stdio.h>
 
-int main()
-{
+int main() {
+    
     float x1, x2, y1, y2;
     float midx, midy; //The x and y co-ordinates of the midpoint
 
