@@ -1,7 +1,7 @@
 #include<stdio.h>
 
-int main()
-{
+int main() {
+
     int a, b, c;
 
     printf("\nThis program will read three numbers from you and print the largest one from them.\n");
@@ -16,18 +16,18 @@ int main()
     scanf("%i", &c);
 
 
-    if (a>b && a>c)
-    {
+    if (a>b && a>c) {
+
         printf("\nThe largest one is: %i\n\n", a);
     }
-    else if (b>c)
-        {
-            printf("\nThe largest one is: %i\n\n", b);
-        }
-    else 
-    {
+    else if (b>c) {
+
+        printf("\nThe largest one is: %i\n\n", b);
+    }
+    else {
+
         printf("\nThe largest one is: %i\n\n", c);
     }
 
-return 0;
+    return 0;
 }
