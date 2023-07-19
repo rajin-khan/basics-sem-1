@@ -3,8 +3,8 @@
 #include<stdio.h>
 #include<ctype.h>
 
-int main()
-{
+int main() {
+
     char hex;
 
     printf("\nThis program will check whether a single character or digit you enter is a hexidecimal.\n");
@@ -14,12 +14,12 @@ int main()
 
     hex = tolower (hex); //Converts Uppercase letters to lowercase letters (part of the ctype library functions), makes the code shorter
 
-    if ((hex>='0' && hex<='9')||(hex>='a' && hex<='f')) //Compares hex against the values of the ASCII code of these symbols
-    {
+    if ((hex>='0' && hex<='9')||(hex>='a' && hex<='f')) {
+
         printf("\nIt is a valid hexadecimal digit.\n\n");
     }
-    else
-    {
+    else {
+        
         printf("\nIt is not a valid hexadecimal digit.\n\n");
     }
 
