@@ -14,7 +14,7 @@ int main() {
     scanf("%i", &b);
 
     if (a<b) {
-        
+
         printf("\nThe smaller one is: %i\n\n", a);
     }
     else {
