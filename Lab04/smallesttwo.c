@@ -2,8 +2,8 @@
 
 #include<stdio.h>
 
-int main()
-{
+int main() {
+    
     int a, b;
 
     printf("\nThis program will read two numbers from you and print the smaller one from them.\n");
@@ -13,14 +13,14 @@ int main()
     printf("\nPlease enter the second number: ");
     scanf("%i", &b);
 
-    if (a<b)
-    {
+    if (a<b) {
+        
         printf("\nThe smaller one is: %i\n\n", a);
     }
-    else
-    {
+    else {
+
         printf("\nThe smaller one is: %i\n\n", b);
     }
 
-return 0;
+    return 0;
 }
