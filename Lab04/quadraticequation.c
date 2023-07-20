@@ -44,7 +44,7 @@ int main() {
         printf("\nThe roots are real and distinct.\n\n");
     }
     else {
-        
+
         printf("\nFor %dx²+%dx+%d,\n", a, b, c);
         printf("\nThe roots are not real (complex/imaginary).\n\n");
     }
