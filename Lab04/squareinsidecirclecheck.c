@@ -6,11 +6,9 @@ It will then then check whether or not that square can be placed inside that cir
 #include<stdio.h>
 #include<math.h>
 
-int main()
-{
-    float a; //The side of the square
-    float diag; //The diagonal of the square 
-    float rad; //The radius of the circle
+int main() {
+
+    float a, diag, rad;
 
     printf("\nThis program will determine whether a given square can be placed in a circle.\n");
 
@@ -22,12 +20,12 @@ int main()
     
     diag = pow(2*(pow(a, 2)), ((float)1)/2);
 
-    if (((diag)/(float)2)<=rad)
-    {
+    if (((diag)/(float)2)<=rad) {
+        
         printf("\nYour square can be placed inside the circle.\n\n");
     }
-    else
-    {
+    else {
+        
         printf("\nYour square cannot be placed inside the circle.\n\n");
     }
     
