@@ -5,8 +5,8 @@ and check whether the triangle is valid or not.
 
 #include<stdio.h>
 
-int main()
-{
+int main() {
+
     float a, b, c; //The three angles of the triangle
 
     printf("\nThis program will check whether a triangle is valid or not.\n");
@@ -19,12 +19,12 @@ int main()
     printf("\nAngle c = ");
     scanf("%f", &c);
 
-    if ((a+b+c)==180)
-    {
+    if ((a+b+c)==180) {
+
         printf("\nThe triangle is valid.\n\n");
     }
-    else
-    {
+    else {
+        
         printf("\nThe triangle is not valid.\n\n");
     }
 
