@@ -10,8 +10,8 @@ And suggest the prices of the fruits as an output.
 #include<stdio.h>
 #include<ctype.h>
 
-int main()
-{
+int main() {
+
     char name;
 
     printf("\nThis program will take the first letter of 4 a fruit as in input, and output suggested fruit prices.\n");
@@ -25,8 +25,8 @@ int main()
 
     name = tolower(name);
 
-    switch(name)
-    {
+    switch(name) {
+        
         case 'm':
             printf("\nThe suggested price for Mangoes is = Tk.500/kg\n\n");
             break;
