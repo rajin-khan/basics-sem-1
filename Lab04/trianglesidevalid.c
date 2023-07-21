@@ -5,8 +5,8 @@ and check whether the triangle is valid or not.
 
 #include<stdio.h>
 
-int main()
-{
+int main() {
+
     float a, b, c; //The three sides of the triangle
 
     printf("\nThis program will check whether a triangle is valid or not.\n");
@@ -19,12 +19,12 @@ int main()
     printf("\nSide c = ");
     scanf("%f", &c);
 
-    if (((a+b)>c)&&((a+c)>b)&&((b+c)>a))
-    {
+    if (((a+b)>c)&&((a+c)>b)&&((b+c)>a)) {
+        
         printf("\nThe triangle is valid.\n\n");
     }
-    else
-    {
+    else {
+
         printf("\nThe triangle is not valid.\n\n");
     }
 
