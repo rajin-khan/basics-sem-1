@@ -2,8 +2,8 @@
 
 #include<stdio.h>
 
-int main()
-{
+int main() {
+
     float a, b;
     
     printf("\nThis program will find the maximum between two numbers.\n");
@@ -11,11 +11,11 @@ int main()
     printf("\nPlease enter two numbers:\n\n");
     scanf("%f %f", &a, &b);
 
-    switch(a>=b)
-    {
+    switch(a>=b) {
+
         case 1:
-            switch (a==b)
-            {
+            switch (a==b) {
+                
                 case 1:
                     printf("\nThe numbers are equal.\n\n");
                     break;
