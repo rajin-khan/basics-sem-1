@@ -2,8 +2,8 @@
 
 #include<stdio.h>
 
-int main()
-{
+int main() {
+
     int year;
 
     printf("\nThis program will check whether the year you enter is a leap year, or not.\n");
@@ -11,11 +11,11 @@ int main()
     printf("\nPlease enter a year: ");
     scanf("%d", &year);
 
-    switch((year%100)==0)
-    {
+    switch((year%100)==0) {
+
         case 1: 
-            switch((year%400)==0)
-            {
+            switch((year%400)==0) {
+
                 case 1:
                     printf("\n%d is a leap year.\n\n", year);
                     break;
@@ -25,8 +25,8 @@ int main()
             }
             break;
         case 0: 
-            switch((year%4)==0)
-            {
+            switch((year%4)==0) {
+                
                 case 1:
                     printf("\n%d is a leap year.\n\n", year);
                     break;
