@@ -12,8 +12,8 @@ if the average score is below 50%, grade = F
 
 #include<stdio.h>
 
-int main()
-{
+int main() {
+
     float sc1, sc2, sc3; //the three scores
     float total, avg; //the total, and the average grade
 
@@ -30,20 +30,20 @@ int main()
     total = sc1+sc2+sc3; //tallies the three grades
     avg = (total/(float)3); //converts it to float because we need the decimal value of the result
 
-    if (avg>=90)
-    {
+    if (avg>=90) {
+        
         printf("\nGrade = A (%.2f%%)\n\n", avg);
     }
-    else if ((avg>=70)&&(avg<90))
-    {
+    else if ((avg>=70)&&(avg<90)) {
+        
         printf("\nGrade = B (%.2f%%)\n\n", avg);
     }
-    else if ((avg>=50)&&(avg<70))
-    {
+    else if ((avg>=50)&&(avg<70)) {
+        
         printf("\nGrade = C (%.2f%%)\n\n", avg);
     }
-    else
-    {
+    else {
+        
         printf("\nGrade = F (%.2f%%)\n\n", avg);
     }
 
