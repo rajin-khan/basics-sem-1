@@ -6,8 +6,7 @@ and output the consequent results.
 
 #include<stdio.h>
 
-int main()
-{
+int main() {
 
     float a, b, result, ressub1, ressub2, resdiv1, resdiv2; //a and b are the two numbers, ressub is the result after alternate subtraction of both numbers, and resdiv is the result after alternate division of both numbers
     char opr; //Stores the symbol for the operation
@@ -24,8 +23,8 @@ int main()
     printf("or, '/' for division.\n\n");
     scanf(" %c", &opr); //Note: You HAVE to use a white space before %c, or scanf doesn't work for this different line.
 
-    switch(opr)
-    {
+    switch(opr) {
+        
         case '+':
             result = a+b;
             printf("\n%.f+%.f = %.2f\n\n", a, b, result);
