@@ -3,8 +3,8 @@
 #include<stdio.h>
 #include<ctype.h>
 
-int main()
-{
+int main() {
+
     char let;
 
     printf("\nThis program will check whether a single letter you enter is a vowel.\n");
@@ -14,8 +14,8 @@ int main()
 
     let = tolower(let);
 
-    switch(let)
-    {
+    switch(let) {
+        
         case 'a':
         case 'e':
         case 'i':
