@@ -6,8 +6,8 @@ and output the consequent results.
 
 #include<stdio.h>
 
-int main()
-{
+int main() {
+
 
     float a, b, result, resdiv1, resdiv2; //a and b are the two numbers, resdiv is the result after alternate division of both numbers
     char opr; //Stores the symbol for the operation
@@ -22,8 +22,8 @@ int main()
 
     scanf("%f %f %c", &a, &b, &opr); //Note: I had to take three inputs at once because scanf wouldn't work like this across different lines, unless I used a white space before %c.
 
-    switch(opr)
-    {
+    switch(opr) {
+        
         case '+':
             result = a+b;
             printf("\nThe result is %.2f\n\n", result);
