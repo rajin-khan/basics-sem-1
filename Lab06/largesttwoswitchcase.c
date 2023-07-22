@@ -11,11 +11,11 @@ int main()
     printf("\nPlease enter two numbers.\n\n");
     scanf("%d %d", &a, &b);
 
-    switch (a>=b)
-    {
+    switch (a>=b) {
+
         case 1:
-            switch (a>b)
-            {
+            switch (a>b) {
+                
                 case 1:
                     printf("\nThe largest number is %d.\n\n", a);
                         break;
