@@ -36,8 +36,8 @@ int main() {
         printf("\n%dP%d = %d\n\n", n, r, ans);
     }
     else {
-        
-        printf("\nMath Error (r must be < = n)\n\n"); //as r cannot be greater than n
+
+        printf("\nMath Error (r must be < = n)\n\n");
     }
 
     return 0;
