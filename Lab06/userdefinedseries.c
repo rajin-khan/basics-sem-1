@@ -5,8 +5,8 @@ and then print the sum of the arithmetic series between them.
 
 #include<stdio.h>
 
-int main()
-{
+int main() {
+
     int min, max, diff, sum;
 
     printf("\nThis program will take a minimum number, a maximum number, and common difference,\nand then print the sum of the arithmetic series between them.\n");
@@ -22,8 +22,8 @@ int main()
 
     sum = 0;
 
-    for (int i=min; i<=max; i+=diff) //i continues untill it is equal to the maximum treshold, it is incremented by the difference for every iteration
-    {
+    for (int i=min; i<=max; i+=diff) { //i continues untill it is equal to the maximum treshold, it is incremented by the difference for every iteration
+    
         printf("%d + ", i);
         sum += i;
     }
