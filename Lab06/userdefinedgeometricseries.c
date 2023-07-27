@@ -5,10 +5,9 @@ and then print the sum of the geometric series between them.
 
 #include<stdio.h>
 
-int main()
-{
-    int min, max, rat, sum; //Yeah, rat is ratio
+int main() {
 
+    int min, max, rat, sum; //Yeah, rat is ratio
 
     printf("\nThis program will take a minimum number, a maximum number, and common ratio,\nand then print the sum of the geometric series between them.\n");
     
@@ -23,8 +22,8 @@ int main()
 
     sum = 0;
 
-    for (int i=min; i<=max; i*=rat) //i will continue to increment by multpluing with the entered ratio, until it is equal to the upper treshold
-    {
+    for (int i=min; i<=max; i*=rat) { //i will continue to increment by multpluing with the entered ratio, until it is equal to the upper treshold
+    
         printf("%d + ", i); //this print statement is repeated for every iteration, so it looks like: x1 + x2 +...
         sum += i;
     }
