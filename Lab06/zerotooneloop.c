@@ -2,18 +2,17 @@
 
 #include<stdio.h>
 
-int main()
-{
+int main() {
+
     int i;
 
-    for (i=9; i>=0; i--) //here, the upper treshold starts from 9, and is decremented till it reaches 0
-    {
-        if (i==9)
-        {
+    for (i=9; i>=0; i--) { //here, the upper treshold starts from 9, and is decremented till it reaches 0
+    
+        if (i==9) {
             printf("\n%d ", i); //prints i for every iteration
         }
-        else
-        {
+        else {
+            
             printf("%d ", i);
         }
     }
