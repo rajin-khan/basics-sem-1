@@ -2,8 +2,8 @@
 
 #include<stdio.h>
 
-int main()
-{
+int main() {
+
     int sum, n;
 
     printf("\nThis program will compute the sum of the series 4+11+18+...+n.\n");
@@ -12,9 +12,10 @@ int main()
 
     sum = 0;
 
-    int i=4;
-    while (i<=n)
-    {
+    int i = 4;
+    
+    while (i<=n) {
+
         printf("%d + ", i);
         sum +=i;
         i +=7;
