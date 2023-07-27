@@ -2,8 +2,8 @@
 
 #include<stdio.h>
 
-int main()
-{
+int main() {
+
     int k;
 
     printf("\nThis program will read a number and print whether it is odd or even.\n");
@@ -11,8 +11,8 @@ int main()
     printf("\nPlease enter the your number: ");
     scanf("%i", &k);
 
-    switch ((k%2)==0)
-    {
+    switch ((k%2)==0) {
+        
         case 1:
             printf("\nThe number is even.\n\n");
                 break;
