@@ -6,8 +6,8 @@ This program will read a number from user and check if it is a palindrome.
 #include<stdio.h>
 #include<math.h>
 
-int main()
-{
+int main() {
+
     int num, numd, nnum, rnum=0, dig=0; //The variables for the input number, the dummy ones for calculating number of digits, and the one that stays the same for output comparison
 
     printf("\nThis program will check if your entered number a palindrome.\n\n");
@@ -19,25 +19,25 @@ int main()
     nnum = num; //The variable that will be used for comparison later is also assigned the same input value
 
     int ndig = 0; //The number of digits (the counter here) is initialized
-    while (numd!=0)
-    {
+    while (numd!=0) {
+
         numd /=10;
         ndig++; //Every time the last digit is dropped, the counter goes up, signifying the number of digits
     }
 
-    for (; ndig>=0; ndig--) //The loop continues until the number of digits counter decreases to zero
-    {
+    for (; ndig>=0; ndig--) { //The loop continues until the number of digits counter decreases to zero
+    
         dig = num%10; //The last digit is found, then multiplied and added by a power of 10 till the reverse number is completed
         rnum += (dig*(pow(10, ndig-1))); //Here 1 is subtracted to compensate for the calculation error, as when n becomes 1, the last digit is miltuplied by 10, not 1
         num /= 10;
     }
     
-    if (nnum==rnum) //The reversed number is compared to the original, unchanged number
-    {
+    if (nnum==rnum) { //The reversed number is compared to the original, unchanged number
+    
         printf("\nThe number %d is a palindrome.\n\n", rnum);
     }
-    else
-    {
+    else {
+        
         printf("\nThe number %d is not a palindrome.\n\n", nnum);
     }
 
