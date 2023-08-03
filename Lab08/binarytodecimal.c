@@ -34,8 +34,9 @@ int main() {
             xbi = bi % 10;
         }
         else {
-            
+
             dec += pow(2, i);
+            
             bi/=10;
             xbi = bi % 10;
         }
