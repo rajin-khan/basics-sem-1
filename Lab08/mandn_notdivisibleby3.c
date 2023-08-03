@@ -2,8 +2,8 @@
 
 #include<stdio.h>
 
-int main()
-{
+int main() {
+
     int m,n;
 
     printf("\nThis program will print all even numbers between m and n, except for the ones divisible by 3.\n");
@@ -16,16 +16,17 @@ int main()
 
     printf("All even numbers between %d and %d, except those divisible by 3 are: ", m, n);
    
-    for (int i=m; i<=n; i++)
-    {
-        if ((i%2)==0)
-        {
+    for (int i=m; i<=n; i++) {
+
+        if ((i%2)==0) {
+
             if (i%3==0)
-                continue;
+            continue;
+
             printf("%d, ", i);
         }
-        else
-        {
+        else {
+            
             continue;
         }
     }
