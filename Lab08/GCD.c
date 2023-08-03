@@ -2,8 +2,8 @@
 
 #include<stdio.h>
 
-int main()
-{
+int main() {
+
     int a, b, max, GCD;
 
     printf("\nThis program will find the Greatest Common Divisor (GCD) of two numbers (integers) that you enter.\n\n");
@@ -13,10 +13,10 @@ int main()
 
     int i = max = a>b ? a:b;
 
-    for (i=max; i>=1; i--)
-    {
-        if (((a%i)==0)&&((b%i)==0))
-        {
+    for (i=max; i>=1; i--) {
+
+        if (((a%i)==0)&&((b%i)==0)) {
+            
             GCD = i;
             break;
         }
