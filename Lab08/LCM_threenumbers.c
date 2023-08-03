@@ -2,8 +2,8 @@
 
 #include<stdio.h>
 
-int main()
-{
+int main() {
+
     int a, b, c, i, max, lcm=0;
 
     printf("\nThis program will read 3 integers and compute their LCM.\n\n");
@@ -11,28 +11,29 @@ int main()
     printf("Enter three numbers: \n");
     scanf("%d %d %d", &a, &b, &c);
 
-    if ((a>=c)&&(a>=b)) //checks whether a is the highest
-    {
+    if ((a>=c)&&(a>=b)) { //checks whether a is the highest
+    
         max = a;
     }
-    else if ((b>=c)&&(b>=a)) //checks whether b is the highest
-        {
-            max = b;
-        }
-    else if ((c>=b)&&(c>=a)) //you get it.
-        {
-            max = c;
-        }
+    else if ((b>=c)&&(b>=a)) { //checks whether b is the highest
+    
+        max = b;
+    }
+    else if ((c>=b)&&(c>=a)) { //you get it.
+    
+        max = c;
+    }
     
     i = max;
     
-    while (1)
-    {
-        if (((i%a)==0)&&((i%b)==0)&&((i%c)==0)) //if i is a multiple of both a, b and c then i is the LCM of a, b, and c
-        {
+    while (1) {
+
+        if (((i%a)==0)&&((i%b)==0)&&((i%c)==0)) { //if i is a multiple of both a, b and c then i is the LCM of a, b, and c
+        
             lcm = i;
-                break; 
+            break; 
         }
+        
         i += max;
     }
 
