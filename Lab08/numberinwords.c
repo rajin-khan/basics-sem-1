@@ -3,8 +3,8 @@
 #include<stdio.h>
 #include<math.h>
 
-int main()
-{
+int main() {
+
     int num, cnum, rnum=0;
 
     printf("\nThis program will display a given number in words starting from its leftmost digit.\n\n");
@@ -16,8 +16,8 @@ int main()
 
     //calculating the reverse of the number
 
-    for (int i=cnum; cnum!=0; cnum/=10)
-    {
+    for (int i=cnum; cnum!=0; cnum/=10) {
+
         rnum = (rnum*10)+(cnum%10);
     }
 
@@ -25,49 +25,58 @@ int main()
 
     printf("\n");
 
-    do
-    {
-        switch (rnum%10)
-        {
+    do {
+
+        switch (rnum%10) {
+
             case 0: 
+            
                 printf("Zero "); 
-                    break;
+                break;
             
             case 1: 
+            
                 printf("One "); 
-                    break;
+                break;
             
             case 2: 
+            
                 printf("Two "); 
-                    break;
+                break;
             
             case 3: 
+            
                 printf("Three "); 
-                    break;
+                break;
             
             case 4: 
+            
                 printf("Four "); 
-                    break;
+                break;
             
             case 5: 
+            
                 printf("Five "); 
-                    break;
+                break;
             
             case 6: 
                 printf("Six "); 
-                    break;
+                break;
             
             case 7: 
+            
                 printf("Seven "); 
-                    break;
+                break;
             
             case 8: 
+            
                 printf("Eight "); 
-                    break;
+                break;
             
             case 9: 
+            
                 printf("Nine "); 
-                    break;
+                break;
         }
         
         rnum /= 10; //last digit dropped off
