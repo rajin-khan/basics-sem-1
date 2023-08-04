@@ -24,7 +24,7 @@ int main() {
             sum = sum + term;
         }
     }
-    
+
     printf("The sum of the series up to 1/%d = %.2f\n\n", n, sum);
 
     return 0;
