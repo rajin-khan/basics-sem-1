@@ -2,8 +2,8 @@
 
 #include<math.h>
 
-int main()
-{
+int main() {
+
     int sum, m, x;
 
     printf("\nThis program will compute the sum of the series x⁰+x¹+x²...+x^m.\n");
@@ -16,11 +16,12 @@ int main()
 
     sum = 0;
 
-    for (int i=0; i<=m; i++)
-    {
+    for (int i=0; i<=m; i++) {
+
         sum += ((pow(x, i)));
         printf("(%d ^ %d) + ", x, i);
     }
+    
     printf("\b\b= %d\n\n", sum);
 
     return 0;
