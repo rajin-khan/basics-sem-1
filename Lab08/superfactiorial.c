@@ -2,8 +2,8 @@
 
 #include<stdio.h>
 
-int main()
-{
+int main() {
+
     int n, i, k, sf=1;
 
     printf("\nThis program will compute the super-factorial of a number you enter.\n\n");
@@ -11,12 +11,12 @@ int main()
     printf("Enter your number: ");
     scanf("%d", &n);
 
-    for (i=1; i<=n; i++)
-    {
+    for (i=1; i<=n; i++) {
+
         int nf=1;
 
-        for (k=1; k<=i; k++)
-        {
+        for (k=1; k<=i; k++) {
+            
             nf *= k;
         }
 
