@@ -9,24 +9,24 @@ and shows the shopper total amount, price and average price of sugar per kg.
 
 #include<stdio.h>
 
-int main()
-{
+int main() {
+
     float kg, price, tkg=0, tprice=0, count=0, avkg, avprice;
 
     printf("\nThis program will show you the total amount, price, and average price of your goods per kilogram.\n(Enter 0 to terminate input)\n");
 
-    do
-    {
+    do {
+
         printf("\nEnter amount (in kg): ");
         scanf("%f", &kg);
 
-        if (kg==0)
-        {
+        if (kg==0) {
+
             break;
         }
 
-        if (kg<0)
-        {
+        if (kg<0) {
+
             printf("Invalid input, enter a positive number\n");
             continue;
         }
@@ -34,8 +34,8 @@ int main()
         printf("Enter price: ");
         scanf("%f", &price);
 
-        if (price<0)
-        {
+        if (price<0) {
+            
             printf("Invalid input, enter a positive number\n");
             continue;
         }
