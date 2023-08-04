@@ -2,8 +2,8 @@
 
 #include<stdio.h>
 
-int main()
-{
+int main() {
+
     int n;
     float sum=0;
 
@@ -14,14 +14,14 @@ int main()
 
     printf ("\n");
 
-    for (int i=1; i<=n; i++)
-    {
+    for (int i=1; i<=n; i++) {
+
         printf("(1/%d!) + ", i); 
 
         int nfact=1;
 
-        for (int k=1; k<=i; k++)
-        {   
+        for (int k=1; k<=i; k++) {
+               
             nfact *= k;
         }
         sum += 1.0/nfact;
