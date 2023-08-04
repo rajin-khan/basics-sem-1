@@ -1,7 +1,7 @@
 #include<stdio.h>
 
-int main()
-{
+int main() {
+
     int n, i;
     float sum, term;
 
@@ -11,19 +11,20 @@ int main()
 
     sum = 1;
 
-    for (i=2; i<=n; i++)
-    {
+    for (i=2; i<=n; i++) {
+
         term = 1.0/i;
 
-        if (i%2==0)
-        {
+        if (i%2==0) {
+
             sum = sum - term;
         }
-        else
-        {
+        else {
+
             sum = sum + term;
         }
     }
+    
     printf("The sum of the series up to 1/%d = %.2f\n\n", n, sum);
 
     return 0;
