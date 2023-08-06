@@ -2,8 +2,8 @@
 
 #include<stdio.h>
 
-int main()
-{
+int main() {
+
     int n;
 
     printf("\nThis program will print a right justified hollow right angled triangle of height n.\n\n");
@@ -13,20 +13,20 @@ int main()
 
     printf("\n");
 
-    for (int i=1; i<=n; i++)
-    {
-        for (int s=1; s<=n-i; s++) 
-        {
+    for (int i=1; i<=n; i++) {
+
+        for (int s=1; s<=n-i; s++)  {
+
             printf(" ");
         }
-        for (int k=1; k<=i; k++)
-        {
-        if ((i==1)||(i==n)||(k==1)||(k==i))
-            {
+        for (int k=1; k<=i; k++) {
+
+            if ((i==1)||(i==n)||(k==1)||(k==i)) {
+                
                 printf("*");
             }
-            else
-            {
+            else {
+                
                 printf(" ");
             }
         }
