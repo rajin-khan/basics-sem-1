@@ -2,8 +2,8 @@
 
 #include<stdio.h>
 
-int main()
-{
+int main() {
+
     int m, n;
 
     printf("\nThis program will print a rectangle pattern of size m*n.\n\n");
@@ -16,12 +16,13 @@ int main()
 
     printf("\n");
 
-    for (int i=1; i<=n; i++)
-    {
-        for (int j=1; j<=m; j++)
-        {
+    for (int i=1; i<=n; i++) {
+
+        for (int j=1; j<=m; j++) {
+
             printf("*");
         }
+        
         printf("\n");
     }
 
