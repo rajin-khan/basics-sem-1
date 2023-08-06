@@ -2,8 +2,8 @@
 
 #include<stdio.h>
 
-int main()
-{
+int main() {
+
     int m, n;
 
     printf("\nThis program will print a hollow box pattern of size m*n.\n\n");
@@ -16,16 +16,16 @@ int main()
 
     printf("\n");
 
-    for (int i=1; i<=n; i++)
-    {
-        for (int j=1; j<=m; j++)
-        {
-            if ((i==1)||(i==n)||(j==1)||(j==m))
-            {
-            printf("*");
+    for (int i=1; i<=n; i++) {
+
+        for (int j=1; j<=m; j++) {
+
+            if ((i==1)||(i==n)||(j==1)||(j==m)) {
+
+                printf("*");
             }
-            else
-            {
+            else {
+                
                 printf(" ");
             }
         }
