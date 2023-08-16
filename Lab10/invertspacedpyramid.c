@@ -2,8 +2,8 @@
 
 #include<stdio.h>
 
-int main()
-{
+int main() {
+
     int n;
 
     printf("\nThis program will print am inverted spaced asterisk pyramid for the number of lines you enter.\n\n");
@@ -13,14 +13,14 @@ int main()
 
     printf("\n");
 
-    for (int i=n; i>=1; i--) 
-    {
-        for (int s=1; s<=n-i; s++)
-        {
+    for (int i=n; i>=1; i--)  {
+
+        for (int s=1; s<=n-i; s++) {
+
             printf(" ");
         }
-        for (int j=1; j<=i; j++)
-        {
+        for (int j=1; j<=i; j++) {
+
             printf("* ");
         }
         printf("\n");
