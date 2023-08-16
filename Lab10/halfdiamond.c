@@ -15,8 +15,8 @@ for n number of lines
 
 #include<stdio.h>
 
-int main()
-{
+int main() {
+
     int n, n2;
 
     printf("\nThis program will print a vertically half diamond.\n");
@@ -26,19 +26,19 @@ int main()
 
     printf("\n");
 
-    for (int i=1; i<=n; i++)
-    {
-        for (int j=1; j<=i; j++)
-        {
+    for (int i=1; i<=n; i++) {
+
+        for (int j=1; j<=i; j++) {
+
             printf("*");
         }
         printf("\n");
     }
 
-    for (int i=n-1; i>=1; i--)
-    {
-        for (int j=1; j<=i; j++)
-        {
+    for (int i=n-1; i>=1; i--) {
+
+        for (int j=1; j<=i; j++) {
+
             printf("*");
         }
         printf("\n");
@@ -48,4 +48,3 @@ int main()
 
     return 0;
 }
-
