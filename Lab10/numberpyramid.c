@@ -12,8 +12,8 @@ for n number of lines
 
 #include<stdio.h>
 
-int main()
-{
+int main() {
+
     int n, k=1;
 
     printf("\nThis program will print a number pyramid.\n");
@@ -23,16 +23,16 @@ int main()
 
     printf("\n");
 
-    for (int i=1; i<=n; i++)
-    {
-        for (int s=1; s<=n-i; s++)
-        {
+    for (int i=1; i<=n; i++) {
+
+        for (int s=1; s<=n-i; s++) {
+
             printf(" ");
         }
-        for (int j=1; j<=(2*i)-1; j++)
-        {
-            if (k>9)
-            {
+        for (int j=1; j<=(2*i)-1; j++) {
+
+            if (k>9) {
+                
                 k = 0;
             }
             printf("%d", k++);
