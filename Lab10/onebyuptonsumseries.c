@@ -5,8 +5,8 @@ This program will compute the sum of the following series using nested loop:
 
 #include<stdio.h>
 
-int main()
-{
+int main() {
+
     int n;
     float frsum=0;
 
@@ -15,19 +15,20 @@ int main()
     printf("Please enter the value of n: ");
     scanf("%d", &n);
 
-    for (int i=1; i<=n; i++)
-    {
+    for (int i=1; i<=n; i++) {
+
         printf("(");
 
         float insum=0;
-        for (int j=1; j<=i; j++)
-        {
+        for (int j=1; j<=i; j++) {
+
             printf("1/%d + ", j);
             insum += 1.0/j;
         }
         printf("\b\b\b");
         
         printf(") + ");
+        
         frsum += insum;
     }
     printf("\b\b= %f\n\n", frsum);
