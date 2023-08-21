@@ -12,8 +12,8 @@ for n number of lines
 
 #include<stdio.h>
 
-int main()
-{
+int main() {
+
     int n;
 
     printf("\nThis program will print a binary right-justified triangle.\n");
@@ -23,14 +23,14 @@ int main()
 
     printf("\n");
 
-    for (int i=1; i<=n; i++)
-    {
-        for (int s=1; s<=n-i; s++)
-        {
+    for (int i=1; i<=n; i++) {
+
+        for (int s=1; s<=n-i; s++) {
+
             printf(" ");
         }
-        for (int j=1; j<=i; j++)
-        {
+        for (int j=1; j<=i; j++) {
+            
             printf("%d", !(j%2));
         }
         printf("\n");
