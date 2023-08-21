@@ -12,8 +12,8 @@ for n number of lines
 
 #include<stdio.h>
 
-int main()
-{
+int main() {
+
     int n, k=1;
 
     printf("\nThis program will print a number right-triangle.\n");
@@ -23,12 +23,12 @@ int main()
 
     printf("\n");
 
-    for (int i=1; i<=n; i++)
-    {
-        for (int j=1; j<=i; j++)
-        {
-            if (k>9)
-            {
+    for (int i=1; i<=n; i++) {
+
+        for (int j=1; j<=i; j++) {
+
+            if (k>9) {
+                
                 k = 0;
             }
             printf("%d", k++);
