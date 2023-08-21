@@ -2,8 +2,8 @@
 
 #include<stdio.h>
 
-int main()
-{
+int main() {
+
     int n;
 
     printf("\nThis program will print all the perfect numbers from 1 to n.\n\n");
@@ -13,23 +13,23 @@ int main()
 
     printf("\n");
 
-    for (int i=2; i<=n; i++)
-    {
+    for (int i=2; i<=n; i++) {
+
         int sum = 0;
 
-        for (int k=1; k<=(i/2); k++)
-        {
-            if (i%k==0)
-            {
+        for (int k=1; k<=(i/2); k++) {
+
+            if (i%k==0) {
+
                 sum += k;
             }
         }
-        if (i==sum)
-        {
+        if (i==sum) {
+
             printf("%d, ", i);
         }
-        else
-        {
+        else {
+            
             continue;
         }
     }
