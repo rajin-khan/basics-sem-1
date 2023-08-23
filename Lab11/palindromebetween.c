@@ -6,8 +6,8 @@ This program will print all the palindrome numbers between m and n.
 #include<stdio.h>
 #include<math.h>
 
-int main()
-{
+int main() {
+
     int m, n;
 
     printf("\nThis program will print all the palindrome numbers between m and n.\n\n");
@@ -17,22 +17,22 @@ int main()
     printf("Enter n: ");
     scanf("%d", &n);
 
-    for (int i=m; i<=n; i++)
-    {
+    for (int i=m; i<=n; i++) {
+
         int k = i, rnum = 0;
 
-        if (i<=9)
-        {
+        if (i<=9) {
+
             continue;
         }
 
-        while (k!=0)
-        {
+        while (k!=0) {
+
             rnum = (rnum*10) + (k%10);
             k/=10;
 
-            if (i==rnum)
-            {
+            if (i==rnum) {
+                
                 printf("%d, ", rnum);
             }
         }
