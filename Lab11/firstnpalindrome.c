@@ -5,8 +5,8 @@ This program will print the first n palindrome numbers.
 
 #include<stdio.h>
 
-int main()
-{
+int main() {
+
     int n, i = 1;
 
     printf("\nThis program will print the first n palindrome numbers.\n\n");
@@ -16,32 +16,34 @@ int main()
 
     int count = 0;
 
-    while (count<n)
-    {
+    while (count<n) {
+
         int rnum = 0, k = i;
 
-        if (i<=9)
-        {
+        if (i<=9) {
+
             i++;
             continue;
         }
 
-        while (k!=0)
-        {
+        while (k!=0) {
+
             rnum = (rnum*10) + (k%10);
             k/=10;
 
-            if (i==rnum)
-            {
+            if (i==rnum) {
+
                 printf("%d, ", i);
+                
                 count++;
 
-                if (count==n)
-                {
+                if (count==n) {
+
                     break;
                 }
             }
         }
+        
         i++;
     }
 
