@@ -2,8 +2,8 @@
 
 #include<stdio.h>
 
-int main()
-{
+int main() {
+
     int n;
 
     printf("\nThis program will print the first n perfect numbers.\n\n");
@@ -16,22 +16,24 @@ int main()
     int count=0;
     int i=1;
 
-    while (count<n)
-    {
+    while (count<n) {
+
         int sum = 0;
 
-        for (int k=1; k<=(i/2); k++)
-        {
-            if (i%k==0)
-            {
+        for (int k=1; k<=(i/2); k++) {
+
+            if (i%k==0) {
+
                 sum += k;
             }
         }
-        if (i==sum)
-        {
+
+        if (i==sum) {
+
             count++;
             printf("%d, ", i);
         }
+        
         i++;
     }
 
