@@ -2,8 +2,8 @@
 
 #include<stdio.h>
 
-int main()
-{
+int main() {
+
     int m, n, sum = 0;
 
     printf("\nThis program will calculate the sum of all the prime numbers between m and n.\n");
@@ -15,26 +15,26 @@ int main()
 
     printf("\nThe sum of all the prime numbers between %d and %d are: \n", m, n);
 
-    for (int i=m; i<=n; i++)
-    {
-
+    for (int i=m; i<=n; i++) {
+        
         int prime = 1;
 
-        for (int k=2; k<=i/2; k++)
-        {
-            if (i%k==0)
-            {
+        for (int k=2; k<=i/2; k++) {
+
+            if (i%k==0) {
+
                 prime = 0;
                 break;
             }
-            else
-            {
+
+            else {
+
                 continue;
             }
         }
 
-        if (prime!=0)
-        {
+        if (prime!=0) {
+            
             sum += i;
             printf("%d + ", i);
         }
