@@ -8,8 +8,8 @@ and then return the value of aᵇ.
 
 int userpow(int x, int y);
 
-int main()
-{
+int main() {
+
     int a, b;
 
     printf("\nThis program will calculate the value of aᵇ.\n");
@@ -25,12 +25,12 @@ int main()
     return 0;
 }
 
-int userpow(int x, int y)
-{
+int userpow(int x, int y) {
+
     int term = 1;
 
-    for (int i=1; i<=y; i++)
-    {
+    for (int i=1; i<=y; i++) {
+        
         term *= x;
     }
 
