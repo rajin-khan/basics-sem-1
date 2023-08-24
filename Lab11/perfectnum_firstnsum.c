@@ -34,9 +34,10 @@ int main() {
             count++;
 
             printf("%d + ", i);
+            
             summation += i;
         }
-        
+
         i++;
     }
 
