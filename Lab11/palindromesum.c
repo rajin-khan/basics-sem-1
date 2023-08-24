@@ -6,8 +6,8 @@ This program will print the sum of all the palindrome numbers between m and n.
 #include<stdio.h>
 #include<math.h>
 
-int main()
-{
+int main() {
+
     int m, n, sum = 0;
     printf("\nThis program will print the sum of all the palindrome numbers between m and n.\n\n");
 
@@ -16,23 +16,23 @@ int main()
     printf("Enter n: ");
     scanf("%d", &n);
 
-    for (int i=m; i<=n; i++)
-    {
+    for (int i=m; i<=n; i++) {
+
         int k, rnum = 0;
         k = i;
 
-        if (i<=9)
-        {
+        if (i<=9) {
+
             continue;
         }
 
-        while (k!=0)
-        {
+        while (k!=0) {
+
             rnum = (rnum*10) + (k%10);
             k/=10;
 
-            if (i==rnum)
-            {
+            if (i==rnum) {
+                
                 sum += rnum;
                 printf("%d + ", i);
             }
