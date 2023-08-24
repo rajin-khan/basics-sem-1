@@ -32,7 +32,7 @@ int main() {
             k/=10;
 
             if (i==rnum) {
-                
+
                 sum += rnum;
                 printf("%d + ", i);
             }
