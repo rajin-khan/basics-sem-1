@@ -10,8 +10,8 @@
 
 #include<stdio.h>
 
-int main()
-{
+int main() {
+
     int n;
 
     printf("Enter n (for n*n matrix): \n");
@@ -21,10 +21,10 @@ int main()
 
     printf("Enter the values of the matrix: \n");
 
-    for (int i=0; i<n; i++)
-    {
-        for (int j=0; j<n; j++)
-        {
+    for (int i=0; i<n; i++) {
+
+        for (int j=0; j<n; j++) {
+
             printf("A [%d, %d]: ", i, j);
             scanf("%d", &A[i][j]);
         }
@@ -32,102 +32,107 @@ int main()
 
     printf("The upper left of the matrix: \n");
 
-    for (int i=0; i<n; i++)
-    {
-        for (int j=0; j<n-i; j++)
-        {
+    for (int i=0; i<n; i++) {
+
+        for (int j=0; j<n-i; j++) {
+
             printf("%d\t", A[i][j]);
         }
+
         printf("\n");
     }
 
     printf("The lower right of the matrix: \n");
 
-    for (int i=0; i<n; i++)
-    {
-        for (int j=0; j<n; j++)
-        {
-            if (j<n-1-i)
-            {
+    for (int i=0; i<n; i++) {
+
+        for (int j=0; j<n; j++) {
+
+            if (j<n-1-i) {
+                
                 printf("\t");
             }
-            else
-            {
+            else {
+
                 printf("%d\t", A[i][j]);
             }
         }
+
         printf("\n");
     }
 
     printf("The upper right of the matrix: \n");
 
-    for (int i=0; i<n; i++)
-    {
-        for (int j=0; j<n; j++)
-        {
-            if (i<=j)
-            {
+    for (int i=0; i<n; i++) {
+
+        for (int j=0; j<n; j++) {
+            
+            if (i<=j) {
+
                 printf("%d\t", A[i][j]);
             }
-            else
-            {
+            else {
+
                 printf("\t");
             }
         }
+
         printf("\n");
     }
 
     printf("The lower left of the matrix: \n");
 
-    for (int i=0; i<n; i++)
-    {
-        for (int j=0; j<=i; j++)
-        {
-            if (j<=i)
-            {
+    for (int i=0; i<n; i++) {
+
+        for (int j=0; j<=i; j++) {
+
+            if (j<=i) {
+
                 printf("%d\t", A[i][j]);
             }
         }
+
         printf("\n");
     }
 
 
     printf("The diagonal of the matrix: \n");
 
-    for (int i=0; i<n; i++)
-    {
-        for (int j=0; j<=i; j++)
-        {
-            if (j==i)
-            {
+    for (int i=0; i<n; i++) {
+
+        for (int j=0; j<=i; j++) {
+
+            if (j==i) {
+
                 printf("%d\t", A[i][j]);
             }
-            else
-            {
+            else {
+
                 printf("\t");
             }
         }
+
         printf("\n");
     }
 
     printf("The reverse diagonal of the matrix: \n");
 
-    for (int i=0; i<n; i++)
-    {
-        for (int j=0; j<n; j++)
-        {
-            if (j==n-1-i)
-            {
+    for (int i=0; i<n; i++) {
+
+        for (int j=0; j<n; j++) {
+
+            if (j==n-1-i) {
+
                 printf("%d\t", A[i][j]);
             }
-            else
-            {
+            else {
+
                 printf("\t");
             }
         }
+
         printf("\n");
     }
 
     return 0;
 }
-
