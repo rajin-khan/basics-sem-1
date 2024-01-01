@@ -9,7 +9,7 @@ int main()
     printf("\nPlease enter the size of your array: ");
     scanf("%d", &n);
 
-    int array[n]; n
+    int array[n];
 
     printf("\nPlease enter the elements of your array: \n\n");
 
