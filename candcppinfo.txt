@@ -1,3 +1,5 @@
+c info collected over time
+
 create a c file
 compile it with:
 make *filename*
